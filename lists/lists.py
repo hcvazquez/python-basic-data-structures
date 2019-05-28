@@ -11,10 +11,10 @@ reverse: Reverse the list.
 '''
 
 if __name__ == '__main__':
-    N = int(raw_input())
+    N = int(input())
     result = []
     for i in range(0, N):
-        cmd = raw_input()
+        cmd = input()
         args = cmd.split(" ")
         if args[0] == "insert":
             result.insert(int(args[1]), int(args[2]))    
